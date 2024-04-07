@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .alert {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+
+        .alert-info {
+            background-color: #d9edf7;
+            border-color: #bce8f1;
+            color: #31708f;
+        }
+
+        .alert-danger {
+            background-color: #f2dede;
+            border-color: #ebccd1;
+            color: #a94442;
+        }
+
+        .alert-warning {
+            background-color: #fcf8e3;
+            border-color: #faf2cc;
+            color: #8a6d3b;
+        }
+
+        .alert-icon {
+            margin-right: 10px;
+        }
+
+        .button-container {
+            display: flex;
+        }
+
+        .button {
+            background-color: #4caf50;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .button:last-child {
+            margin-right: 0;
+        }
+
+        .call-parents-button {
+            background-color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Alerts</div>
+
+        <div class="alert alert-info">
+            <div class="alert-icon">ℹ️</div>
+            <div class="alert-message">John's blood sugar level is low.</div>
+            <div class="button-container">
+                <button class="button">Track Child</button>
+                <button class="button call-parents-button">Call Parents</button>
+            </div>
+        </div>
+
+        <div class="alert alert-danger">
+            <div class="alert-icon">⚠️</div>
+            <div class="alert-message">Emma's blood sugar level is high.</div>
+            <div class="button-container">
+                <button class="button">Track Child</button>
+                <button class="button call-parents-button">Call Parents</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

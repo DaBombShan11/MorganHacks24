@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top, #09203f 0%, #537895 100%);
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
+            font-weight: bold; 
+            font-size: 40px; 
+            margin-top: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .child-info {
+            overflow: hidden;
+        }
+
+        .child-info img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .child-info h2 {
+            margin: 0;
+        }
+
+        .child-info p {
+            margin-top: 5px;
+        }
+
+        .glucose-levels {
+            margin-top: 20px;
+        }
+
+        .glucose-levels h3 {
+            margin: 0;
+        }
+
+        .glucose-levels table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .glucose-levels th, .glucose-levels td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .glucose-levels th {
+            background-color: #f2f2f2;
+        }
+
+        .schedule {
+            margin-top: 20px;
+        }
+
+        .schedule h3 {
+            margin: 0;
+        }
+
+        .schedule table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .schedule th, .schedule td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .schedule th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h4>GluScope</h4>
+
+    <div class="container">
+        <h1>Child Information</h1>
+        <div class="child-info">
+            <img src="data:image/jpeg;base64,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" alt="Child Photo">
+            <h2>John Doe</h2>
+            <p><strong>Date of Birth:</strong> January 1, 2010</p>
+            <p><strong>Blood Type:</strong> A+</p>
+            <p><strong>Medical Conditions:</strong> Type 1 Diabetes</p>
+            <div class="glucose-levels">
+                <h3>Glucose Level History:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Glucose Level (mg/dL)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-04-05</td>
+                            <td>08:00 AM</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td>2024-04-05</td>
+                            <td>12:00 PM</td>
+                            <td>110</td>
+                        </tr>
+                        <tr>
+                            <td>2024-04-05</td>
+                            <td>04:00 PM</td>
+                            <td>130</td>
+                        </tr>
+                        <tr>
+                            <td>2024-04-05</td>
+                            <td>08:00 PM</td>
+                            <td>100</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="schedule">
+                <h3>Schedule & Locations:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Activity</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>08:00 AM - 12:00 PM</td>
+                            <td>Math Class</td>
+                            <td>Room 101</td>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>01:00 PM - 03:00 PM</td>
+                            <td>Science Lab</td>
+                            <td>Lab 3</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>08:00 AM - 10:00 AM</td>
+                            <td>Physical Education</td>
+                            <td>Field</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>11:00 AM - 12:00 PM</td>
+                            <td>Art Class</td>
+                            <td>Art Room</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>09:00 AM - 11:00 AM</td>
+                            <td>Music Class</td>
+                            <td>Music Room</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>10:00 AM - 12:00 PM</td>
+                            <td>Reading Club</td>
+                            <td>Library</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>08:00 AM - 10:00 AM</td>
+                            <td>Math Tutoring</td>
+                            <td>Room 105</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

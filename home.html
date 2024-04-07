@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top, #09203f 0%, #537895 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .title {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .subheading {
+            font-size: 20px;
+            color: white; 
+        }
+
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+            color: #003399;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #003399;
+            color: white;
+            cursor: pointer;
+        }
+
+        .button-container button:hover {
+            background-color: #003399;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>GluScope</h1>
+        <h2 class="subheading">Real-Time Insights, Immediate Action: Diabetes Management Reinvented!</h2>
+    </div>
+    <div class="image-container">
+        <img src="https://db4sgowjqfwig.cloudfront.net/campaigns/178280/assets/823262/heartbeat.gif?1517203454">
+    </div>
+    <div class="button-container">
+        <button onclick="location.href='alerts.html'">Alerts</button>
+        <button onclick="location.href='all_kids.html'">All Kids</button>
+        <button onclick="location.href='settings.html'">Settings</button>
+    </div>
+</body>
+</html>

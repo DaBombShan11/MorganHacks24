@@ -1,0 +1,53 @@
+{
+    "kids": [
+      {
+        "name": "Emma",
+        "schedule": {
+          "time": "2024-04-10T09:00:00Z",
+          "Teacher": "Ms. Smith",
+          "className": "Math",
+          "roomNumber": 101
+        },
+        "age": 10,
+        "emergancyContact": "123-456-7890",
+        "school": "Maple Grove Middle School"
+      },
+      {
+        "name": "Ethan",
+        "schedule": {
+          "time": "2024-04-10T13:30:00Z",
+          "Teacher": "Mr. Johnson",
+          "className": "Science",
+          "roomNumber": 102
+        },
+        "age": 12,
+        "emergancyContact": "987-654-3210",
+        "school": "Pinecrest High School"
+      },
+      {
+        "name": "Olivia",
+        "schedule": {
+          "time": "2024-04-11T10:15:00Z",
+          "Teacher": "Mrs. Brown",
+          "className": "History",
+          "roomNumber": 103
+        },
+        "age": 15,
+        "emergancyContact": "456-789-0123",
+        "school": "Cedar Ridge Middle School"
+      },
+      {
+        "name": "William",
+        "schedule": {
+          "time": "2024-04-11T14:00:00Z",
+          "Teacher": "Dr. Lee",
+          "className": "Physics",
+          "roomNumber": 104
+        },
+        "age": 14,
+        "emergancyContact": "789-012-3456",
+        "school": "Summit High School"
+      }
+    ]
+  }
+  

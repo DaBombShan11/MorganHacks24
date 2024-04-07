@@ -1,0 +1,41 @@
+{
+    "schedules": [
+        {
+            "time": "2024-04-10T09:00:00Z",
+            "Teacher": "Ms. Smith",
+            "className": "Math",
+            "roomNumber": 101
+        },
+        {
+            "time": "2024-04-10T13:30:00Z",
+            "Teacher": "Mr. Johnson",
+            "className": "Science",
+            "roomNumber": 102
+        },
+        {
+            "time": "2024-04-11T10:15:00Z",
+            "Teacher": "Mrs. Brown",
+            "className": "History",
+            "roomNumber": 103
+        },
+        {
+            "time": "2024-04-11T14:00:00Z",
+            "Teacher": "Dr. Lee",
+            "className": "Physics",
+            "roomNumber": 104
+        },
+        {
+            "time": "2024-04-12T11:30:00Z",
+            "Teacher": "Prof. Adams",
+            "className": "Literature",
+            "roomNumber": 105
+        },
+        {
+            "time": "2024-04-12T15:45:00Z",
+            "Teacher": "Ms. Garcia",
+            "className": "Art",
+            "roomNumber": 106
+        }
+    ]
+}
+

@@ -44,7 +44,7 @@ The database schema includes collections for nurses, students, blood sugar readi
     (we will add some soon 😀)
 
 ## Design Documents:
-    ![image](https://github.com/DaBombShan11/MorganHacks24/assets/74931751/5ab95a1d-d062-42aa-8c57-c348424ba8e4)
+![image](https://github.com/DaBombShan11/MorganHacks24/assets/74931751/5ab95a1d-d062-42aa-8c57-c348424ba8e4)
 
 
 

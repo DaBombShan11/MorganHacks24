@@ -44,15 +44,15 @@ The database schema includes collections for nurses, students, blood sugar readi
 
     (we will add some soon 😀)
 
-Design Documents:
+## Design Documents:
     (take a picture of the board or sum 😀)
 
 
-UI/UX Design:
+## UI/UX Design:
     (we will add some soon 😀)
 
 
-Watch Design:
+## Watch Design:
     (we will add some soon 😀)
 
 

@@ -57,9 +57,9 @@ The database schema includes collections for nurses, students, blood sugar readi
 
 
 ## Contributors
-    -   Ashanti Boone (Frontend Software Engineer/Lead Engineer)
-    -   Bruce Metoyer (Frontend Software Engineer)
-    -   Lloyd [lastName] (Embedded Software Engineer)
-    -   Devine Chinemere (Backend Software Engineer)
+-   Ashanti Boone (Frontend Software Engineer/Lead Engineer)
+-   Bruce Metoyer (Frontend Software Engineer)
+-   Lloyd [lastName] (Embedded Software Engineer)
+-   Devine Chinemere (Backend Software Engineer)
 
 

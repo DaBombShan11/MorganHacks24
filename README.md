@@ -37,7 +37,10 @@ GluScope is an app designed to assist school nurses, parents, and diabetic stude
 
 
 ## Screenshots:
-    (we will add some soon 😀)
+<img width="1437" alt="Screenshot 2024-04-07 at 12 08 42 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/c5501e0d-71d8-4bce-ac24-151580556ed8">
+
+
+
 
 ## Database Schema
 The database schema includes collections for nurses, students, blood sugar readings, and notifications. Below is a simplified representation:

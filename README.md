@@ -1,5 +1,5 @@
 # GloScope: Diabetes Blood Sugar Tracking App
-GloScope is an app designed to assist school nurses, parents, and diabetic students in grades K-12 to monitor blood sugar levels. The app has a smartwatch called GloScope which is worn by the student, then it provides real-time data and notifications to School Nurses based on Level of alert.
+GloScope is an app designed to assist school nurses, parents, and diabetic students in grades K-12 in monitoring blood sugar levels. The app has a smartwatch called GloScope, which is worn by the student. It then provides real-time data and notifications to school nurses based on the level of alert.
 
 ## Features:
 1. Blood Sugar Tracking:
@@ -59,7 +59,7 @@ The database schema includes collections for nurses, students, blood sugar readi
 ## Contributors
 -   Ashanti Boone (Frontend Software Engineer/Lead Engineer)
 -   Bruce Metoyer (Frontend Software Engineer)
--   Lloyd [lastName] (Embedded Software Engineer)
+-   Lloyd Bolodeoku (Embedded Software Engineer)
 -   Devine Chinemere (Backend Software Engineer)
 
 

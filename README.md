@@ -37,9 +37,13 @@ GluScope is an app designed to assist school nurses, parents, and diabetic stude
 
 
 ## Screenshots:
-<img width="1437" alt="Screenshot 2024-04-07 at 12 08 42 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/c5501e0d-71d8-4bce-ac24-151580556ed8">
-
-
+<img width="1440" alt="Screenshot 2024-04-07 at 12 07 55 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/7e7e3fcf-7e0d-4dee-beeb-b27bf4eced4c">
+<img width="1440" alt="Screenshot 2024-04-07 at 12 08 24 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/a5588f89-c7d6-4ebc-abc0-143e343efd5c">
+<img width="1437" alt="Screenshot 2024-04-07 at 12 08 42 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/c6e7a2ee-26e5-4097-bb66-a9341e7d262d">
+<img width="1440" alt="Screenshot 2024-04-07 at 12 09 08 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/ce8c0770-08a7-4a0b-8433-9072f0ac53f8">
+<img width="1440" alt="Screenshot 2024-04-07 at 12 09 28 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/15759707-aee9-4b47-9e7d-f21e958911df">
+<img width="1440" alt="Screenshot 2024-04-07 at 12 09 47 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/f52f6e5f-af9b-4caf-92bf-4b1bade5e63a">
+<img width="1440" alt="Screenshot 2024-04-07 at 12 10 12 PM" src="https://github.com/DaBombShan11/MorganHacks24/assets/100718707/31254891-d2f7-49d4-8164-06b4d27e1f33">
 
 
 ## Database Schema

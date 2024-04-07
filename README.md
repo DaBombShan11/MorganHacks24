@@ -42,13 +42,19 @@ GloScope is an app designed to assist school nurses, parents, and diabetic stude
 ## Database Schema
 The database schema includes collections for nurses, students, blood sugar readings, and notifications. Below is a simplified representation:
 
-    (ill do this when i feel like it 🧑‍🍳)
+    (we will add some soon 😀)
 
 Design Documents:
+    (take a picture of the board or sum 😀)
+
 
 UI/UX Design:
+    (we will add some soon 😀)
+
 
 Watch Design:
+    (we will add some soon 😀)
+
 
 ## Contributors
     -   Ashanti Boone (Frontend Software Engineer/Lead Engineer)
